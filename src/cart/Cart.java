@@ -18,22 +18,18 @@ public class Cart {
         items.add(new CartItem(product, quantity));
         product.reduceQuantity(quantity);
     }
-
     public boolean isEmpty() {
         return items.isEmpty();
     }
-
     public List<CartItem> getItems() {
         return items;
     }
-
     public double getSubtotal() {
         return items.stream().mapToDouble(CartItem::getTotalPrice).sum();
     }
-
     public List<Product> getShippableItems() {
         return items.stream()
-                .map(CartItem::getProduct)
+                .map(CartItem::product)
                 .filter(Product::isShippable)
                 .toList();
     }
