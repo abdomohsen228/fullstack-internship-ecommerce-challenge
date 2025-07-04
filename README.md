@@ -65,5 +65,4 @@ This project is a submission for the **Fawry Full Stack Development Internship C
    ```bash
     git clone https://github.com/abdomohsen228/fullstack-internship-ecommerce-challenge
     cd fullstack-internship-ecommerce-challenge
-    git checkout dev
 
