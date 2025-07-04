@@ -1,7 +1,5 @@
 # Fawry Fullstack Internship - E-Commerce System
 
-> **Note**: This project is in active development on the `dev` branch. The `main` branch does not contain the final implementation.
-
 ##  Project Overview
 This is a Java-based console application that simulates an e-commerce system. It was designed and developed for the Fawry Fullstack Internship Challenge, focusing on clean Object-Oriented Programming (OOP), SOLID principles, and use of the **Decorator Design Pattern**.
 
@@ -34,7 +32,7 @@ This is a Java-based console application that simulates an e-commerce system. It
 ```bash
 git clone https://github.com/abdomohsen228/fullstack-internship-ecommerce-challenge
 cd fullstack-internship-ecommerce-challenge
-git switch dev
+
 ```
 ##  Project Structure
 ```
